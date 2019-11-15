@@ -33,7 +33,29 @@ with open(file,'r') as jsonfile:
     
 json_data = json.loads(lochist)
 
-for line in json_data:
+# this is one large dictionary with 1 key -> Locations
+# let's dump melt that into another dictionary called points..
+
+#this creates a list of dictionaries
+location_history = json_data['locations']
+running_history = []
+#Get the length of the dictionary 
+for locdict in location_history:
+    running_history.append()
+   # for location_point,location_value in locdict.items():
+   #     location_hist = pd.DataFrame.from_dict()
+        
+        
+        
+        
+
+
+#points = [1]
+
+    
+    
+    
+
     
 
 jsonfile.close()
